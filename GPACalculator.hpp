@@ -95,7 +95,7 @@ void GPACalculator::REAndDataProcess()
 
     std::string pattern = "([0-9]{1,3}*)(~|-|<|>*)([0-9]{1,3}*)";
     std::regex express(pattern);
-	std::cout.setf(std::ios_base::boolalpha);
+    std::cout.setf(std::ios_base::boolalpha);
     
     std::match_results<std::string::iterator> ruleResults;
     for(auto elem: rule) {
